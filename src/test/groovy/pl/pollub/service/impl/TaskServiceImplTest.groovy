@@ -126,7 +126,7 @@ class TaskServiceImplTest extends Specification {
     }
 
     def "when update task by adding contributors then contributors share this task"() {
-        given: "git push test TortoiseGit"
+        given: "git push test TortoiseGit. And again"
         User owner = new User(1L, "user1")
         User contributor1 = new User(2L, "user2")
         User contributor2 = new User(3L, "user3")
